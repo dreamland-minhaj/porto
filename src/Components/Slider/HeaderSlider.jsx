@@ -16,8 +16,8 @@ const HeaderSlider = () =>{
                 slidesPerView={1}
                 navigation
                 pagination={{ clickable: true }}
-                className="w-full bg-blue-800 h-[750px]">   
-                <SwiperSlide className="flex items-center justify-center bg-slider1">
+                className="w-full bg-blue-800 bg-no-repeat h-[750px]">
+                <SwiperSlide className="flex items-center justify-center bg-slider1 bg-no-repeat bg-cover">
                     <div className="text-2xl text-white">
                         <div className="flex gap-4 justify-center items-center">
                             <img className="w-[37px] h-[10px]"src="https://www.portotheme.com/wordpress/porto/classic-original/wp-content/uploads/sites/2/2022/07/wpb-co-slide-title-border.png" alt="" />
@@ -29,7 +29,7 @@ const HeaderSlider = () =>{
                     </div>
                 </SwiperSlide>
 
-                <SwiperSlide className="flex items-center justify-center bg-slider2">
+                <SwiperSlide className="flex items-center justify-center bg-slider2 bg-no-repeat bg-cover">
                     <div className="text-2xl text-white">
                         <div className="flex gap-4 justify-center items-center">
                             <img className="w-[37px] h-[10px]"src="https://www.portotheme.com/wordpress/porto/classic-original/wp-content/uploads/sites/2/2022/07/wpb-co-slide-title-border.png" alt="" />
@@ -41,7 +41,7 @@ const HeaderSlider = () =>{
                     </div>
                 </SwiperSlide>
 
-                <SwiperSlide className="flex items-center justify-center bg-slider3">
+                <SwiperSlide className="flex items-center justify-center bg-slider3 bg-no-repeat bg-cover">
                     <div className="text-2xl text-white">
                         <div className="flex gap-4 justify-center items-center">
                             <img className="w-[37px] h-[10px]"src="https://www.portotheme.com/wordpress/porto/classic-original/wp-content/uploads/sites/2/2022/07/wpb-co-slide-title-border.png" alt="" />

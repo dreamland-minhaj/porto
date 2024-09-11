@@ -1,4 +1,5 @@
 
+import Accordion from "../Accordion/Accordion";
 import featuresData from "./featuresdata";
 
 const firstcolumndata = featuresData.slice(0, 4);
@@ -46,7 +47,7 @@ const Features = () => {
 
                 <div className="w-1/3">
                     <h1 className="font-sans text-[25px] font-light tracking-tighter pb-4">and more</h1>
-                    
+                    <Accordion/>
                 </div>
 
 

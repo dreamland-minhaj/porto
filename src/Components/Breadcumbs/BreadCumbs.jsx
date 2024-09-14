@@ -9,8 +9,7 @@ const BreadCumbs =()=>{
                     <p className="text-[12px] text-white">About us</p>
                 </div>
                 <h1 className="text-[30px] text-white font-sans flex-none border-b-[5px] border-[#0088CC] inline pb-10">About Us</h1>
-            </div>
-            
+            </div>  
          </div>
         
         </>

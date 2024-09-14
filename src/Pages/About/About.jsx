@@ -2,7 +2,7 @@ import BreadCumbs from "../../Components/Breadcumbs/BreadCumbs";
 import SectionOne from "./SectionOne";
 import SectionTwo from "./SectionTwo";
 import History from "./History";
-import Team from "../../Components/Team/Team";
+import Teamcomp from "../../Components/Team/Teamcomp";
 const About = ()=>{
     return(
         <>
@@ -10,7 +10,7 @@ const About = ()=>{
         <SectionOne/>
         <SectionTwo/>
         <History/>
-        <Team/>
+        <Teamcomp/>
         </>
     );
 }

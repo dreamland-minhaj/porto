@@ -1,7 +1,11 @@
+import BreadCumbs from "../../Components/Breadcumbs/BreadCumbs";
+import Teamcomp from "../../Components/Team/Teamcomp";
+
 const Team=()=>{
     return(
         <>
-        <h1>team</h1>
+        <BreadCumbs/>
+        <Teamcomp/>
         </>
     );
 }

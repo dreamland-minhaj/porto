@@ -2,7 +2,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 
-const Team = () => {
+const Teamcomp = () => {
     return(
         <>
             <section className="header-full-width bg-[#F7F7F7] py-10">
@@ -101,4 +101,4 @@ const Team = () => {
         </>
     );
 }
-export default Team;
+export default Teamcomp;

@@ -16,7 +16,7 @@ const HeaderSlider = () =>{
                 slidesPerView={1}
                 navigation
                 pagination={{ clickable: true }}
-                className="w-full bg-blue-800 bg-no-repeat h-[750px]">
+                className="w-full h-[750px]">
                 <SwiperSlide className="flex items-center justify-center bg-slider1 bg-no-repeat bg-cover">
                     <div className="text-2xl text-white">
                         <div className="flex gap-4 justify-center items-center">

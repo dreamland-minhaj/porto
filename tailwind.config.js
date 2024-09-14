@@ -15,6 +15,7 @@ export default {
         'slider1': "url('/src/Components/Slider/Images/slider1.jpg')",
         'slider2': "url('/src/Components/Slider/Images/slider2.jpg')",
         'slider3': "url('/src/Components/Slider/Images/slider3.jpg')",
+        'map'    : "url('/src/Components/Slider/Images/map.png')",
         
       }
     },

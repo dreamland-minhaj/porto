@@ -5,6 +5,7 @@ import About from "../Pages/About/About";
 import Contact from "../Pages/Contact/Contact";
 import Team from "../Pages/Team/Team";
 import Blog from "../Pages/Blog/Blog";
+import SingleTeam from "../Components/Team/SingleTeam";
 
 
 const router = createBrowserRouter([
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
             {
                 path:"/blog",
                 element:<Blog/>
+            },
+            {
+                path:"/team/:postId",
+                element:<SingleTeam/>
             },
         ],
     },
